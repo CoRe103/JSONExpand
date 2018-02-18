@@ -1,0 +1,25 @@
+ul{
+    margin-left: 16px;
+    margin-top: 0;
+    margin-bottom: 0;
+    padding: 0;
+    list-style-type: none;
+}
+span.o::before{
+    content: "{";
+}
+span.o::after{
+    content: "}";
+}
+span.a::before{
+    content: "[";
+}
+span.a::after{
+    content: "]";
+}
+span.i,span.k{
+    margin-right: 4px;
+}
+span.w{
+    margin-left: 4px;
+}
