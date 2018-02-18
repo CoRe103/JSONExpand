@@ -4,8 +4,24 @@
 <meta charset="utf-8" />
 <title>JSON Expand</title>
 <link type="text/css" rel="stylesheet" href="json_expand.css">
+<script type="text/javascript" src="json_expand.js"></script>
 </head>
 <body>
-<script type="text/javascript" src="json_expand.js"></script>
+<script>
+var json = {
+    key1: "value1",
+    key2: {
+        key3: "value2",
+        key4: [
+            {key5: "value3"},
+            "value4",
+            "value5"
+        ]
+    }
+};
+document.getElementsByTagName("body")[0].appendChild(jsonExpand(json));
+// If you use jQuery, then discribe below:
+// $("body")[0].append(jsonExpand(json));
+</script>
 </body>
 </html>
