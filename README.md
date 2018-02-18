@@ -11,7 +11,7 @@
 2. convert in JavaScript
 
 ```
-DOM_element = jsonExpand(<json>);
+DOM_element = jsonExpand(json);
 ```
 
 ## Example
